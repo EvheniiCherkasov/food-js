@@ -11,11 +11,18 @@
   },
   "author": "",
   "license": "ISC",
+  "borowserslists" : [
+    ">1%"
+  ],
   "bugs": {
     "url": "https://github.com/normanime/truefood/issues"
   },
-  "homepage" : "https://evheniicherkasov.github.io/",
+  "homepage": "https://evheniicherkasov.github.io/",
   "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.10",
     "file-loader": "^6.2.0",
     "json-server": "^0.17.0",
     "webpack-cli": "^4.10.0"
